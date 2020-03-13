@@ -1,6 +1,6 @@
 <?php
 
-namespace Yarull\Facades\ApiHelpers;
+namespace Yarull\ApiHelpers\Facades;
 
 use Illuminate\Database\Eloquent\Model;
 
