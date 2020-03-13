@@ -22,7 +22,7 @@ class JSONResponse extends Model
     ], $err));
   }
 
-  public static function exist($obj,$response,$name=null,$message=null){
+  public static function exist($obj,$name=null,$message=null){
     if(!$obj){
       if(!$name){
         $message = 'La búsqueda no arrojó resultados';
