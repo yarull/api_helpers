@@ -1,0 +1,27 @@
+{
+    "name": "yarull/api_helpers",
+    "description": "API helpers",
+    "license": "MIT",
+    "keywords": ["api","helpers"],
+    "authors": [
+        {
+            "name": "Yarull Alvarez",
+            "email": "yarullalvarez@hotmail.com"
+        }
+    ],
+
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Yarull\\ApiHelpers\\": "src/"
+        }
+    }
+}
